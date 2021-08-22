@@ -7,7 +7,7 @@ The LaunchDarkly Feature Flag SaaS (Software as a Service) is the bee's knees. I
 
 ## Running Lucee CFML Locally
 
-I built this use [CommandBox][command-box]. To start the server, I ran this from the root directory of this repository:
+I built this using [CommandBox][command-box]. To start the server, I ran this from the root directory of this repository:
 
 ```sh
 # Boot-up the CommandBox CLI.
@@ -21,8 +21,11 @@ server start
 cfconfig import ./.cfconfig.json
 ```
 
+I also copied my LaunchDarkly project SDK key into a new file, `./config/production.json`, which is a copy of the `./config/template.json` template.
+
 ## Resources
 
+* [Ben Nadel's blog posts on LaunchDarkly](https://www.google.com/search?q=site%3Abennadel.com+launchdarkly).
 * [Maven download page for LaunchDarkly 5.6.2 JAR files](https://mvnrepository.com/artifact/com.launchdarkly/launchdarkly-java-server-sdk/5.6.2).
 * [LaunchDarkly Java SDK JavaDocs](https://launchdarkly.github.io/java-server-sdk/). 
 
