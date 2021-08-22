@@ -1,0 +1,13 @@
+{
+    "app":{
+        "cfengine":"lucee"
+    },
+    "JVM":{
+        "args":"-Dlucee.preserve.case=true"
+    },
+    "web":{
+        "webroot":"wwwroot/",
+        "directoryBrowsing":true
+    },
+    "name":"launchdarkly-lucee-cfml"
+}

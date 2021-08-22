@@ -1,0 +1,5 @@
+{
+	"launchDarkly": {
+		"sdkKey": "your-sdk-key-here"
+	}
+}
